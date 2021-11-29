@@ -1,0 +1,41 @@
+* {
+    color: black;
+}
+
+header {
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.highscore {
+    text-decoration: none;
+}
+
+.highscore:hover {
+    color: red;
+}
+
+.timer-limit {
+    float: right;
+}
+
+.page-content {
+    background-color:whitesmoke;
+    max-width: 60%;
+    text-align: center;
+    padding: 9px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    height: 400px;
+    border: 3px groove grey;
+    border-radius: 20px;
+}
+
+.directions {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+
