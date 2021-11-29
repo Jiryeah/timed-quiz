@@ -38,3 +38,28 @@ var initiate = document.querySelector("#start-btn");
 var q = document.querySelector(".q");
 
 // start function 
+// start timer function 
+initiate.addEventListener("click", function(){
+    if (intervalGap === 0) {
+        intervalGap = countDown(function (){
+            quizTime--;
+            timerLimit.textContent = "TIME: " + quizTime;
+
+            if (quizTime <= 0) {
+                clearInterval(intervalGap);
+                timerLimit.textContent = "Out of time!";
+                quizComplete ();
+            }
+        }, 1000);
+    }
+    insert(questionIndex);
+});
+
+// shows available questions from our stated array
+function insert(questionIndex) {
+    for (var i = 0; i < questions.length; i++) {
+        var question = questions[questionIndex].title;
+        var value = questions[questionIndex].values;
+
+    }
+}
