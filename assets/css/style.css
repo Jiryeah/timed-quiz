@@ -38,4 +38,9 @@ header {
     text-align: center;
 }
 
+#start-btn {
+    background-color: black;
+    color: white;
+}
+
 
