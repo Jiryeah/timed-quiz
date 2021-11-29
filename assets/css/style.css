@@ -39,8 +39,9 @@ header {
 }
 
 #start-btn {
-    background-color: black;
+    background-color: lightslategray;
     color: white;
+    border-radius: 20px;
 }
 
 

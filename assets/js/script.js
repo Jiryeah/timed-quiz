@@ -26,3 +26,15 @@ var questions = [
         answer: "console log"
     },
 ];
+
+// variables
+var questionIndex = 0;
+var initialScore = 0;
+var penalty = 10;
+var quizTime = 75;
+var intervalGap =0;
+var timerLimit = document.querySelector(".timer-limit");
+var initiate = document.querySelector("#start-btn");
+var q = document.querySelector(".q");
+
+// start function 
