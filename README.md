@@ -10,7 +10,7 @@
 - WHEN all questions are answered or the timer reaches 0
 - THEN the game is over
 - WHEN the game is over
- -THEN I can save my initials and score
+- THEN I can save my initials and score
  
- ## Summary 
+## Summary 
 A quiz that has countdown must be created. The quiz will have multiple web dev questions for the user to answer. It is very important for: the time infract when given an incorrect answer, the score to be logged through localStorage, and for the game to be over either when the time has run out or all questions have been answered. 
