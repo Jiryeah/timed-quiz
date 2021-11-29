@@ -9,16 +9,35 @@
 <body>
     <!-- header that will contain the 'view highschores' on the upper left corner and countdown timer on the upper right corner -->  
     <header>
-        <div class="header">
+        <section class="header">
             <div class="highscore">
                 <span>VIEW HIGHSCORES!</span>
             </div>
             <div class="timer-limit">
                 <span class="time">TIME:</span>
             </div>
-        </div>
+        </section>
     </header>
     <!-- header end -->
+    <!-- main body containing the questions and and asnwers -->
+    <main>
+        <section class="card" id="?-card">
+            <div class="?-box">
+                <h2 class="question"></h2>
+            </div>
+            <div class="answer-box">
+                <ul>
+                    <button class="btn" id="start-btn" type="submit">Start Quiz!</button>
+                </ul>
+            </div>
+            <div class="score">
+                <p class="label"> Score :
+                    <span id="score-amount">0</span>
+                </p>
+            </div>
+        </section>
+    </main>
+    <!-- main end -->
 
 </body>
 </html>
