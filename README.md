@@ -17,7 +17,7 @@ A quiz that has countdown must be created. The quiz will have multiple web dev q
  
 
 ### Deployed Application link and Screenshot
--https://jiryeah.github.io/timed-quiz/
+- https://jiryeah.github.io/timed-quiz/
 
--<img width="1440" alt="Screen Shot 2021-12-14 at 12 49 55 AM" src="https://user-images.githubusercontent.com/92201576/145947453-3d6c4d66-f856-41a9-9a17-87fbc490c8c1.png">
+- <img width="1440" alt="Screen Shot 2021-12-14 at 12 49 55 AM" src="https://user-images.githubusercontent.com/92201576/145947453-3d6c4d66-f856-41a9-9a17-87fbc490c8c1.png">
 
